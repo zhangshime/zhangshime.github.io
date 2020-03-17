@@ -445,7 +445,7 @@ ul li {
   padding: 0 6px;
   margin: 0 3px;
   font-size: 13px;
-  border-radius: 4px;
+  border-radius: 2px;
   display: inline-block;
 }
 .gt-post-content pre {
@@ -455,7 +455,7 @@ ul li {
   font-size: 13px;
   font-family: Menlo, Monaco, 'Source Code Pro', Consolas, 'Courier New', monospace;
   padding: 1em;
-  border-radius: 5px;
+  border-radius: 2px;
   line-height: 1.375;
   width: 100%;
   overflow: scroll;
@@ -716,7 +716,6 @@ ul li {
   font-weight: bold;
   margin-top: 16px;
   margin-bottom: 16px;
-  align-self: start;
 }
 .archives-container .post {
   padding: 16px 0;
@@ -772,79 +771,6 @@ ul li {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
-}
-/*
-
-Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
-
-*/
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #002b36;
-  color: #839496;
-}
-.hljs-comment,
-.hljs-quote {
-  color: #586e75;
-}
-/* Solarized Green */
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-addition {
-  color: #859900;
-}
-/* Solarized Cyan */
-.hljs-number,
-.hljs-string,
-.hljs-meta .hljs-meta-string,
-.hljs-literal,
-.hljs-doctag,
-.hljs-regexp {
-  color: #2aa198;
-}
-/* Solarized Blue */
-.hljs-title,
-.hljs-section,
-.hljs-name,
-.hljs-selector-id,
-.hljs-selector-class {
-  color: #268bd2;
-}
-/* Solarized Yellow */
-.hljs-attribute,
-.hljs-attr,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-class .hljs-title,
-.hljs-type {
-  color: #b58900;
-}
-/* Solarized Orange */
-.hljs-symbol,
-.hljs-bullet,
-.hljs-subst,
-.hljs-meta,
-.hljs-meta .hljs-keyword,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-link {
-  color: #cb4b16;
-}
-/* Solarized Red */
-.hljs-built_in,
-.hljs-deletion {
-  color: #dc322f;
-}
-.hljs-formula {
-  background: #073642;
-}
-.hljs-emphasis {
-  font-style: italic;
-}
-.hljs-strong {
-  font-weight: bold;
 }
 @font-face {
   font-family: KaTeX_AMS;
@@ -1724,15 +1650,15 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 }
 
         .gt-bg-theme-color-first {
-          background: #ffffff!important;
+          background: #f8f9fa!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #ffffff!important;
+          background: #f1f3f5!important;
         }
         
         .gt-bg-content-color-first {
-          background: #5f6169!important;
+          background: #212529!important;
         }
         
         .gt-bg-content-color-second {
@@ -1740,23 +1666,23 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         }
         
         .gt-bg-accent-color-first {
-          background: #f5bab2!important;
+          background: #f03e3e!important;
         }
         
         .gt-bg-accent-color-second {
-          background: RGBA(245,186,178,0.14)!important;
+          background: RGBA(240,62,62,0.2)!important;
         }
         
         .gt-c-theme-color-first {
-          color: #ffffff!important;
+          color: #f8f9fa!important;
         }
         
         .gt-c-theme-color-second {
-          color: #ffffff!important;
+          color: #f1f3f5!important;
         }
         
         .gt-c-content-color-first {
-          color: #5f6169!important;
+          color: #212529!important;
         }
         
         .gt-c-content-color-second {
@@ -1764,51 +1690,61 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
         }
         
         .gt-c-accent-color-first {
-          color: #f5bab2!important;
+          color: #f03e3e!important;
         }
         
         .gt-c-accent-color-second {
-          color: RGBA(245,186,178,0.14)!important;
+          color: RGBA(240,62,62,0.2)!important;
         }
         
         body {
-          color: #5f6169!important;
+          color: #212529!important;
         }
         
         a {
-          color: #f5bab2!important;
+          color: #f03e3e!important;
         }
         
         .post-content h1 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(240,62,62,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(240,62,62,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(245,186,178,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(240,62,62,0.4) 0)!important;
         }
         
         .gt-post-content a {
-          color: #f5bab2!important;
+          color: #f03e3e!important;
         }
         
         .gt-post-content blockquote {
-          background: RGBA(245,186,178,0.14)!important;
-          border-color: #f5bab2!important;
+          background: RGBA(240,62,62,0.2)!important;
+          border-color: #f03e3e!important;
         }
         
         .gt-post-content code {
-          background: RGBA(245,186,178,0.14)!important;
+          background: RGBA(240,62,62,0.2)!important;
         }
-         
+
+        .archives-container {
+          align-items: center;
+        }
+
+        .archives-container .year {
+          color: #212529!important;
+          position: relative!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(240,62,62,0.4) 0)!important;
+        }
+        
