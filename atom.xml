@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangshi.me</id>
     <title>通鉴演绎</title>
-    <updated>2020-03-17T19:12:51.834Z</updated>
+    <updated>2020-03-18T00:28:04.592Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangshi.me"/>
     <link rel="self" href="https://zhangshi.me/atom.xml"/>
-    <subtitle>123</subtitle>
+    <subtitle>江畔何人初见月？江月何年初照人？</subtitle>
     <logo>https://zhangshi.me/images/avatar.png</logo>
     <icon>https://zhangshi.me/favicon.ico</icon>
     <rights>All rights reserved 2020, 通鉴演绎</rights>
