@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangshi.me</id>
     <title>通鉴演绎</title>
-    <updated>2020-03-23T07:36:56.362Z</updated>
+    <updated>2020-03-23T08:00:15.848Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangshi.me"/>
     <link rel="self" href="https://zhangshi.me/atom.xml"/>
@@ -23,9 +23,9 @@
         <link href="https://zhangshi.me/post/li-shi-de-wu-yong-zhi-yong-200315/">
         </link>
         <updated>2020-03-17T17:18:30.000Z</updated>
-        <summary type="html"><![CDATA[<p>说到中国，让你想起了什么？让人自豪的除了中华崛起外，或许是那延绵不绝5000年的传承。</p>
+        <summary type="html"><![CDATA[<p>说到中国，一定会聊起延绵不绝5000年的传承。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>说到中国，让你想起了什么？让人自豪的除了中华崛起外，或许是那延绵不绝5000年的传承。</p>
+        <content type="html"><![CDATA[<p>说到中国，一定会聊起延绵不绝5000年的传承。</p>
 ]]></content>
     </entry>
 </feed>
